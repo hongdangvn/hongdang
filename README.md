@@ -19,7 +19,9 @@ Copy/paste below text to the box:
   "properties": {},
   "sentAt": "string"
 }
+
 Click Send button
+
 Response code:
 - 200: { "result": "ok" }
 - no data
