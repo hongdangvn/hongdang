@@ -2,6 +2,7 @@ Method: POST
 Tab Body: 
 - Select Raw
 - Drop-down: JSON instead Text
+
 Copy/paste below text to the box:
 {
  "organizationId": "string",
