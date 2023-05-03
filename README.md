@@ -43,3 +43,40 @@ Tab Body:
 
  Response code:
  - 200: { "result": "ok" }
+
+2. Case: User add to cart successfully
+ Copy/paste below text to the box:
+ {
+  "organizationId",
+ 
+   "projectId": "P01",
+  
+   "anonymousId": "A01",
+  
+   "userId": "U01",
+  
+   "requestId": "R01",
+  
+   "category": "C01",
+  
+   "event": "E01",
+  
+   "context": {
+  
+     "userAgent": "UA01",
+    
+     "deviceType": "pc"
+    
+   },
+  
+   "properties": {["new", "red"]},
+  
+   "sentAt": "2023/04/30"
+  
+ }
+
+ Click Send button
+
+ Response code:
+ - 400: Bad request
+
