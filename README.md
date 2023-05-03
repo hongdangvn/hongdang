@@ -34,7 +34,11 @@ Tab Body:
     
    },
   
-   "properties": {["new", "red"]},
+"properties": {
+      "product_id": "19284",
+      
+      "number": "1"
+    },
   
    "sentAt": "2023/04/30"
   
