@@ -36,9 +36,9 @@ Tab Body:
   
 "properties": {
 
-      "product_id": "19284",
+      "status": "new",
       
-      "number": "1"
+      "color": "blue"
     },
   
    "sentAt": "2023/04/30"
@@ -50,7 +50,7 @@ Tab Body:
  Response code:
  - 200: { "result": "ok" }
 
-2. Case: User add to cart successfully
+2. Case: User can not add to cart without Organization Id
  Copy/paste below text to the box:
  {
   "organizationId",
@@ -75,7 +75,12 @@ Tab Body:
     
    },
   
-   "properties": {["new", "red"]},
+   "properties": {
+
+      "status": "new",
+      
+      "color": "blue"
+    },
   
    "sentAt": "2023/04/30"
   
