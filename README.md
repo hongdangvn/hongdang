@@ -1,3 +1,5 @@
+Tool: Postman
+
 Request method: POST
 
 URL: https://sampleproject.ingest.mpdev.io/v1/track
@@ -6,33 +8,34 @@ Tab Body:
 - Select Raw
 - Drop-down: JSON instead Text
 
+1. Case: User add to cart successfully
 Copy/paste below text to the box:
 {
- "organizationId": "string",
+ "organizationId": "O01",
  
-  "projectId": "string",
+  "projectId": "P01",
   
-  "anonymousId": "string",
+  "anonymousId": "A01",
   
-  "userId": "string",
+  "userId": "U01",
   
-  "requestId": "string",
+  "requestId": "R01",
   
-  "category": "string",
+  "category": "C01",
   
-  "event": "string",
+  "event": "E01",
   
   "context": {
   
-    "userAgent": "string",
+    "userAgent": "UA01",
     
     "deviceType": "pc"
     
   },
   
-  "properties": {},
+  "properties": {["new", "red"]},
   
-  "sentAt": "string"
+  "sentAt": "2023/04/30"
   
 }
 
@@ -40,5 +43,3 @@ Click Send button
 
 Response code:
 - 200: { "result": "ok" }
-- no data
-- 400 { "message": "Invalid request body" }
