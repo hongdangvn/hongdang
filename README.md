@@ -49,23 +49,23 @@ Tab Body:
  {
   "organizationId",
  
-   "projectId": "P01",
+   "projectId": "P02",
   
-   "anonymousId": "A01",
+   "anonymousId": "A02",
   
-   "userId": "U01",
+   "userId": "U02",
   
-   "requestId": "R01",
+   "requestId": "R02",
   
-   "category": "C01",
+   "category": "C02",
   
-   "event": "E01",
+   "event": "E02",
   
    "context": {
   
-     "userAgent": "UA01",
+     "userAgent": "UA02",
     
-     "deviceType": "pc"
+     "deviceType": "laptop"
     
    },
   
