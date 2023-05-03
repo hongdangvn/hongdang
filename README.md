@@ -35,6 +35,7 @@ Tab Body:
    },
   
 "properties": {
+
       "product_id": "19284",
       
       "number": "1"
