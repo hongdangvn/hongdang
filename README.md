@@ -10,6 +10,7 @@ Tab Body:
 
 1. Case: User add to cart successfully
  Copy/paste below text to the box:
+ 
  {
   "organizationId": "O01",
  
