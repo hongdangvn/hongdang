@@ -9,37 +9,37 @@ Tab Body:
 - Drop-down: JSON instead Text
 
 1. Case: User add to cart successfully
-Copy/paste below text to the box:
-{
- "organizationId": "O01",
+ Copy/paste below text to the box:
+ {
+  "organizationId": "O01",
  
-  "projectId": "P01",
+   "projectId": "P01",
   
-  "anonymousId": "A01",
+   "anonymousId": "A01",
   
-  "userId": "U01",
+   "userId": "U01",
   
-  "requestId": "R01",
+   "requestId": "R01",
   
-  "category": "C01",
+   "category": "C01",
   
-  "event": "E01",
+   "event": "E01",
   
-  "context": {
+   "context": {
   
-    "userAgent": "UA01",
+     "userAgent": "UA01",
     
-    "deviceType": "pc"
+     "deviceType": "pc"
     
-  },
+   },
   
-  "properties": {["new", "red"]},
+   "properties": {["new", "red"]},
   
-  "sentAt": "2023/04/30"
+   "sentAt": "2023/04/30"
   
-}
+ }
 
-Click Send button
+ Click Send button
 
-Response code:
-- 200: { "result": "ok" }
+ Response code:
+ - 200: { "result": "ok" }
