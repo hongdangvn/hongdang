@@ -50,7 +50,8 @@ Tab Body:
  Response code:
  - 200: { "result": "ok" }
 
-2. Case: User can not add to cart without Organization Id
+2. Case: User can not add to cart without entering enough information
+
  Copy/paste below text to the box:
  {
   "organizationId",
